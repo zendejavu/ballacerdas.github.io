@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Balla Cerdas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Balla Cerdas" />
+    <meta name="description" content="BallaCerdas" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -57,7 +57,7 @@
 
                     <!-- Portfolio Subpage -->
                     <section class="pt-page" data-id="portfolio">
-                        @include('portofolio')
+                        @include('portfolio')
                     </section>
                     <!-- /Portfolio Subpage -->
 

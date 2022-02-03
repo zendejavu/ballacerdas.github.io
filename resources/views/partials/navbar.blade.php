@@ -24,7 +24,8 @@
                             <a class="pt-trigger" href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a class="pt-trigger" href="#blog">Blog</a>
+                            {{-- <a class="pt-trigger" href="#blog">Blog</a> --}}
+                            <a class="pt-trigger" href="#portfolio">Management</a>
                         </li>
                         <li>
                             <a class="pt-trigger" href="#contact">Contact</a>
