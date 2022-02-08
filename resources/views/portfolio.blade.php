@@ -28,13 +28,22 @@
                         <li class="active">
                             <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_media">Media</a>
                         </li>
                         <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
+                        </li> --}}
+                        <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_education">Edukasi</a>
                         </li>
                         <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_inspection">Inspeksi</a>
+                        </li>
+                        <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_product">Product</a>
+                        </li>
+                        {{-- <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
                         </li>
                         <li>
@@ -42,13 +51,26 @@
                         </li>
                         <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
-                        </li>
+                        </li> --}}
                     </ul>
 
                     <!-- Portfolio Grid -->
                     <div class="portfolio-grid three-columns">
 
-                        <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                        @foreach ($portfolio as $p)
+                        <figure class="{{ $p['figure_class'] }}" data-groups="{{ $p['groups'] }}">
+                            <div class="portfolio-item-img">
+                                <img src="images/portfolio/{{ $p['img'] }}" alt="{{ $p['name'] }}" title="{{ $p['name'] }}" />
+                                <a href="{{ $p['link'] }}" class="{{ $p['a_class'] }}"></a>
+                            </div>
+
+                            <i class="{{ $p['i_class'] }}"></i>
+                            <h4 class="name">{{ $p['name'] }}</h4>
+                            <span class="category">{{ $p['category'] }}</span>
+                        </figure>
+                        @endforeach
+
+                        {{-- <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                             <div class="portfolio-item-img">
                                 <img src="images/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
                                 <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true"
@@ -113,7 +135,7 @@
                             <i class="fas fa-video"></i>
                             <h4 class="name">YouTube Video 1</h4>
                             <span class="category">YouTube Videos</span>
-                        </figure>
+                        </figure> --}}
                     </div>
                 </div>
                 <!-- /Portfolio Content -->

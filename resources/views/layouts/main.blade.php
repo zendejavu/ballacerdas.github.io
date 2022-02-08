@@ -62,9 +62,12 @@
                     <!-- /Portfolio Subpage -->
 
                     <!-- Blog Subpage -->
-                    <section class="pt-page" data-id="blog">
-                        @include('blog')
+                    <section class="pt-page" data-id="management">
+                        @include('management')
                     </section>
+                    {{-- <section class="pt-page" data-id="blog">
+                        @include('blog')
+                    </section> --}}
                     <!-- /Blog Subpage -->
 
                     <!-- Contact Subpage -->
@@ -89,9 +92,9 @@
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    {{-- <script src='https://www.google.com/recaptcha/api.js'></script> --}}
     <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    {{-- <script src="https://maps.googleapis.com/maps/api/js"></script> --}}
     <script src="js/jquery.googlemap.js"></script>
     <script src="js/main.js"></script>
 </body>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Database;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,5 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     // return view('welcome');
-    return view('layouts.main');
+    return view('layouts.main', [
+        "management" => Database::managementData(),
+        "resume_we" => Database::work_experienceData(),
+        "resume_awards" => Database::awardsData(),
+        "portfolio" => Database::portolioData(),
+    ]);
+
+
+    //  $users->toArray();
 });

@@ -1,13 +1,15 @@
         <!-- Header -->
         <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content clearfix">
-                <div class="my-photo">
-                    <img src="images/photo.jpg" alt="image">
-                </div>
+                <a class="" href="#about-me">
+                    <div class="my-photo">
+                        <img src="images/photo.jpg" alt="image" class="img-thumbnail rounded-circle">
+                    </div>
 
-                <div class="site-title-block">
-                    <div class="site-title">Balla Cerdas</div>
-                </div>
+                    <div class="site-title-block">
+                        <div class="site-title">Balla Cerdas</div>
+                    </div>
+                </a>
 
                 <!-- Navigation -->
                 <div class="site-nav">
@@ -25,7 +27,7 @@
                         </li>
                         <li>
                             {{-- <a class="pt-trigger" href="#blog">Blog</a> --}}
-                            <a class="pt-trigger" href="#portfolio">Management</a>
+                            <a class="pt-trigger" href="#management">Management</a>
                         </li>
                         <li>
                             <a class="pt-trigger" href="#contact">Contact</a>
