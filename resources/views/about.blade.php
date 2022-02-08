@@ -241,38 +241,28 @@
                     <!-- Clients Carousel Block -->
                     <div class="clients owl-carousel">
                         <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
+                            <a href="https://www.ieee.org/" target="_blank" title="Logo IEEE">
                                 <img src="images/clients/client-7.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
+                            <a href="https://unhas.ac.id/" target="_blank" title="Logo Unhas">
                                 <img src="images/clients/client-6.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                                <img src="images/clients/client-5.png" alt="Logo">
+                            <a href="https://bapendasulsel.web.id/" target="_blank" title="Logo Bapenda Sulsel">
+                                <img src="images/clients/client-5.jpg" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
+                            <a href="https://www.act.id/" target="_blank" title="Logo ACT">
                                 <img src="images/clients/client-4.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                                <img src="images/clients/client-3.png" alt="Logo">
-                            </a>
-                        </div>
-                        <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                                <img src="images/clients/client-2.png" alt="Logo">
-                            </a>
-                        </div>
-                        <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                                <img src="images/clients/client-1.png" alt="Logo">
+                            <a href="https://akba.ac.id/" target="_blank" title="Logo STMIK Akba">
+                                <img src="images/clients/client-3.jpg" alt="Logo">
                             </a>
                         </div>
                     </div>

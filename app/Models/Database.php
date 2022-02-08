@@ -127,6 +127,16 @@ class Database
             "category" => "Media"
         ],
         [
+            "groups" => '["category_all", "category_product"]',
+            "img" => "6.jpg",
+            "figure_class" => "item lbvideo",
+            "link" => "images/portfolio/videos/act.mp4",
+            "a_class" => "lightbox mfp-iframe",
+            "i_class" => "fas fa-video",
+            "name" => "Humanitarian Project",
+            "category" => "Video"
+        ],
+        [
             "groups" => '["category_all", "category_education"]',
             "img" => "5.jpg",
             "figure_class" => "item standard",
