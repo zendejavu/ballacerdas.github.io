@@ -38,6 +38,7 @@
 
         $('#contact_form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
+                // var url = "/contact";
                 var url = "contact_form/contact_form.php";
 
                 $.ajax({
@@ -273,7 +274,8 @@
             zoom: 16 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
-            address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
+            // address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
+            address: "Jl. Traktor II No.2, Mangasa, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90221", // Your Address. Change it
         });
     });
 

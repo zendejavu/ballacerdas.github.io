@@ -5,18 +5,18 @@
     </div>
 
     <div class="section-content">
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-xs-12 col-sm-12">
                 <div id="map" class="map"></div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="row">
             <div class="col-xs-12 col-sm-3">
                 <div class="col-inner bs-30">
                     <div class="lm-info-block gray-default">
                         <i class="lnr lnr-phone-handset"></i>
-                        <h4>415-832-2000</h4>
+                        <h4>0811-1100-001</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                     </div>
@@ -38,7 +38,7 @@
                 <div class="col-inner bs-30">
                     <div class="lm-info-block gray-default">
                         <i class="lnr lnr-envelope"></i>
-                        <h4>alex@example.com</h4>
+                        <h4>info@ballacerdas.com</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                     </div>
@@ -65,6 +65,7 @@
                     <h3>How Can I Help You?</h3>
                 </div>
 
+                {{-- <form id="contact_form" class="contact-form" action="/contact"> --}}
                 <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
 
                     <div class="messages"></div>

@@ -21,15 +21,16 @@
                         <!-- /Text rotation / Subtitle -->
 
                         <h2 class="hp-main-title">Balla Cerdas</h2>
-                        <p>Balla Cerdas adalah perusahaan yang bergerak di bidang Teknologi Informasi dan 
+                        <p>Balla Cerdas adalah sebuah startup yang bergerak di bidang Teknologi Informasi dan 
                             Komunikasi. </p>
+                        {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam ad delectus ipsum sunt accusantium tenetur minus dicta perferendis enim necessitatibus labore, perspiciatis maiores inventore dignissimos tempore atque molestiae possimus similique itaque nobis aspernatur. Quidem magnam accusamus corporis voluptatibus ea!</p> --}}
                         <p>Visi Perusahaan adalah Menjadi Perusahaan Terkemuka di Indonesia Timur dalam bidang Teknologi 
                             Informasi dan Komunikasi pada Tahun 2025 dengan tujuan semua sistem 
                             terhubung dalam segala aspek sehingga konsumen merasakan manfaat positif 
                             menggunakan Teknologi Informasi dan Komunikasi</p>
-                        <div class="hp-buttons">
+                        {{-- <div class="hp-buttons">
                             <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -241,30 +242,40 @@
                     <!-- Clients Carousel Block -->
                     <div class="clients owl-carousel">
                         <div class="client-block">
-                            <a href="https://www.ieee.org/" target="_blank" title="Logo IEEE">
+                            <a href="https://www.ieee.org/" target="_blank" title="IEEE Indonesia Section">
                                 <img src="images/clients/client-7.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="https://unhas.ac.id/" target="_blank" title="Logo Unhas">
+                            <a href="https://unhas.ac.id/" target="_blank" title="Universitas Hasanuddin">
                                 <img src="images/clients/client-6.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="https://bapendasulsel.web.id/" target="_blank" title="Logo Bapenda Sulsel">
-                                <img src="images/clients/client-5.jpg" alt="Logo">
+                            <a href="https://bapendasulsel.web.id/" target="_blank" title="Bapenda Sulsel">
+                                <img src="images/clients/client-5.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="https://www.act.id/" target="_blank" title="Logo ACT">
+                            <a href="https://www.act.id/" target="_blank" title="Aksi Cepat Tanggap Sulsel">
                                 <img src="images/clients/client-4.png" alt="Logo">
                             </a>
                         </div>
                         <div class="client-block">
-                            <a href="https://akba.ac.id/" target="_blank" title="Logo STMIK Akba">
-                                <img src="images/clients/client-3.jpg" alt="Logo">
+                            <a href="https://akba.ac.id/" target="_blank" title="STMIK Akba">
+                                <img src="images/clients/client-3.png" alt="Logo">
                             </a>
                         </div>
+                        <div class="client-block">
+                            <a href="https://cot.unhas.ac.id/" target="_blank" title="Puslantek COT Unhas">
+                                <img src="images/clients/client-2.png" alt="Logo">
+                            </a>
+                        </div>
+                        {{-- <div class="client-block">
+                            <a href="#" target="_blank" title="Logo">
+                                <img src="images/clients/client-1.png" alt="Logo">
+                            </a>
+                        </div> --}}
                     </div>
                     <!-- /Clients Carousel Block -->
                 </div>

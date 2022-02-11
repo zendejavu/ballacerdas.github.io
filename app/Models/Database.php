@@ -94,7 +94,7 @@ class Database
             "a_class" => "ajax-page-load",
             "i_class" => "far fa-file-alt",
             "name" => "Humanitarian Project",
-            "category" => "Media"
+            "category" => "Product"
         ],
         [
             "groups" => '["category_all", "category_inspection"]',
@@ -104,27 +104,27 @@ class Database
             "a_class" => "ajax-page-load",
             "i_class" => "far fa-file-alt",
             "name" => "Pemeriksaan Alat Komputer",
-            "category" => "Media"
+            "category" => "Inspeksi"
         ],
         [
             "groups" => '["category_all", "category_product"]',
             "img" => "3.jpg",
             "figure_class" => "item standard",
-            "link" => "portfolio-2.html",
+            "link" => "portfolio-3.html",
             "a_class" => "ajax-page-load",
             "i_class" => "far fa-file-alt",
             "name" => "Aplikasi Antrian v-1.2",
-            "category" => "Media"
+            "category" => "Product"
         ],
         [
             "groups" => '["category_all", "category_education"]',
             "img" => "4.jpg",
             "figure_class" => "item standard",
-            "link" => "portfolio-2.html",
+            "link" => "portfolio-4.html",
             "a_class" => "ajax-page-load",
             "i_class" => "far fa-file-alt",
             "name" => "Webinar & Virtual Training",
-            "category" => "Media"
+            "category" => "Edukasi"
         ],
         [
             "groups" => '["category_all", "category_product"]',
@@ -134,17 +134,17 @@ class Database
             "a_class" => "lightbox mfp-iframe",
             "i_class" => "fas fa-video",
             "name" => "Humanitarian Project",
-            "category" => "Video"
+            "category" => "Product"
         ],
         [
             "groups" => '["category_all", "category_education"]',
             "img" => "5.jpg",
             "figure_class" => "item standard",
-            "link" => "portfolio-2.html",
+            "link" => "portfolio-5.html",
             "a_class" => "ajax-page-load",
             "i_class" => "far fa-file-alt",
             "name" => "Workshop Smart Reader",
-            "category" => "Media"
+            "category" => "Edukasi"
         ]
     ];
 

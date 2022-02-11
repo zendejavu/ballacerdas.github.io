@@ -35,13 +35,13 @@
                             <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
                         </li> --}}
                         <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_product">Product</a>
+                        </li>
+                        <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_education">Edukasi</a>
                         </li>
                         <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_inspection">Inspeksi</a>
-                        </li>
-                        <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_product">Product</a>
                         </li>
                         {{-- <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>

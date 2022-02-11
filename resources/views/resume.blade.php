@@ -55,12 +55,12 @@
 
         </div>
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-xs-12 col-sm-12">
                 <div class="col-inner ts-30">
                     <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>

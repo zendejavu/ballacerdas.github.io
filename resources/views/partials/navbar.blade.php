@@ -62,12 +62,12 @@
         <div class="mobile-header mobile-visible">
             <div class="mobile-logo-container">
                 <div class="mobile-header-image">
-                    <a href="#">
+                    <a href="#about-me">
                         <img src="images/photo.jpg" alt="image">
                     </a>
                 </div>
                 <div class="mobile-site-title">
-                    <a href="#">Balla Cerdas</a>
+                    <a href="#about-me">Balla Cerdas</a>
                 </div>
             </div>
 
